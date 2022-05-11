@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&family=Roboto:ital@1&display=swap");
+* {
+  margin: 0%;
+  max-width: 100%;
+
+  font-family: "popins", sans-serif;
+  color: #16507b;
+}
+.header {
+  border: 1px solid #e9e7e7;
+  padding: 15px 0;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav > ul > li {
+  display: inline-block;
+  padding-right: 45px;
+}
+li a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+
+.dd {
+  border: none;
+  font-size: 13px;
+}
+.btn-1 {
+  border: 1px solid gray;
+  border-radius: 9px;
+  height: 30px;
+  width: 115px;
+  margin-top: 4px;
+  background-color: rgba(13, 86, 196, 0.911);
+  color: white;
+}
+
+.h1 {
+  color: #16507b;
+  text-decoration: none;
+  padding-left: 80px;
+  font-size: 27px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+  font-size: 14px;
+  color: #16507b;
+  padding-right: 90px;
+}
+.bg {
+  background-image: url(./bg.img.jpg);
+  margin: 0px;
+  position: relative;
+}
+.main-cont {
+  text-align: center;
+  margin: 0px auto 50px;
+}
+
+.align {
+  font-family: "poppins", sans-serif;
+  font-size: 50px;
+  color: rgb(3, 60, 140);
+  margin-bottom: 0px;
+  line-height: 70px;
+  font-weight: bolder;
+  margin-top: 0px;
+  padding: 27px;
+  color: #124265;
+}
+.para {
+  font-size: 22px;
+  color: #5e5e5e;
+  margin-top: 9px;
+  
+  
+}
+
+.btn-2 {
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  width: 178px;
+  margin-top: 20px;
+  margin-left: 0px;
+  background-color: rgba(13, 86, 196, 0.911);
+  color: white;
+}
+.last-cont {
+  display: flex;
+  justify-content: space-evenly;
+}
+.last-column-1 {
+  width: 250px;
+  height: 270px;
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  line-height: 30px;
+  border-radius:8px;
+    box-shadow: 0 0 29px 0 rgb(18 66 101 / 8%);
+   transition: all 0.3s ease-in-out;
+
+}
+.img {
+  height: 35px;
+ margin-top: 65px;
+     color: #2487ce;
+}
+li {
+  list-style: none;
+}
+.style{
+  font-size:20px;
+  font-weight: bolder;
+}
+.sty{
+  font-size: 17px;
+   color:#5e5e5e;
+   font-weight: 600; 
+}
